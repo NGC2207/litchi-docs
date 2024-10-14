@@ -3,8 +3,8 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  // base: "/",
-  dest: "src/.vuepress/dist",
+  base: "/litchi-docs/",
+  // dest: "src/.vuepress/dist",
 
   lang: "en-US",
   title: "Docs Demo",
